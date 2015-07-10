@@ -34,7 +34,7 @@
 		<img src="img/gjh_logo.png" height="70px">
 	  </div>
 	
-	  <span class="text"><b>Gymnázium Jura Hronca</b><br>International Baccalaureate Diploma Programme</span>
+	  <span class="text"><b>Gymnázium Jura Hronca</b><br>Lorem Ipsum Diploma Programme</span>
 	
 	  <span class="header-logo-right">
 	  	<img src="img/iblogo-big.png">
