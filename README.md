@@ -1,0 +1,2 @@
+# IB GJH Website by Samo & Kolega
+This is our new design of the ib.gjh.sk website. We decided to put an end to the old, terrible design and create something nice, usable, responsive and fast at the same time.
