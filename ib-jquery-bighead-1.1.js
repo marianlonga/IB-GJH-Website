@@ -27,7 +27,9 @@ $(document).ready(function(){
 	var sliderHeight = parseInt(slider.css("height"));
 	var headerHeight = parseInt(header.css("height"));
 	var sliderImg = $(".slider-ib img");
-	var searchInputField = $("nav.ib #search-input input");
+	var searchInputField = $("nav.ib #search-input");
+
+	//INITIAL STUFF
 
 	scaleHeader();
 
@@ -41,10 +43,14 @@ $(document).ready(function(){
 		headerHeight = parseInt(header.css("height"));
 	}
 
+	//HANDLING WINDOW RESIZE
+
 	$(window).resize(function(){
 		scaleHeader();
 		setConstants();
 	});
+
+	//SLIDER ITERATION
 
 	var timer = setInterval(sliderNextPic, 2000);
 	function sliderNextPic() {
@@ -59,6 +65,8 @@ $(document).ready(function(){
 		sliderImg.attr("src", sliderPics[sliderPicNo]);
 	}
 
+	//SEARCH OPERATING
+
 	searchInputField.keypress(function(event){
 		if (searchActive && event.which == 13){
 			hideSearch();
@@ -67,6 +75,42 @@ $(document).ready(function(){
 			hideSearch();
 		}
 	});
+
+	$("nav.ib #menu-search-button").click(function() {
+		if (searchActive){
+			hideSearch();
+		} else {
+			showSearch();
+		}
+	});
+
+	function hideSearch(){
+		if ($("nav.ib ul #search-input").val() != ""){
+			alert("You bastard! You wanna search for '" + 
+			$("nav.ib ul #search-input").val() + 
+			"', right?");
+		}
+		$("nav.ib > ul > li").css("display","inline");
+		$("nav.ib ul #search-input").css("display","none");
+		$("nav.ib ul #search-input").val("");
+		$("nav.ib ul #search").css("width","5%");
+		$("nav.ib ul #menu-search-button").css("width","100%");	
+		searchActive = false;
+	}
+
+	function showSearch(){
+		$("nav.ib > ul > li:not(#search)").css("display","none");
+		$("nav.ib ul #menu-search-button").css("width","5%");	
+		$("nav.ib ul #search").css("width","100%");
+		$("nav.ib ul #search-input").css("display","inline");
+		$("nav.ib ul #search-input").focus();
+		searchActive = true;
+		$("nav.ib ul #search-input").animate({
+			width: "95%"
+		},100);
+	}
+
+	//LANGUAGE SWITCHING
 
 	$(".language-switch-button").click(function(){
 		if ($(this).attr("id") == "en"){
@@ -90,36 +134,7 @@ $(document).ready(function(){
 			siteLanguage + "! Nice try, mate.");
 	});
 
-	$("nav.ib #menu-search-button img").click(function() {
-		if (searchActive){
-			hideSearch();
-		} else {
-			showSearch();
-		}
-	});
-
-	function hideSearch(){
-		if ($("nav.ib ul #search-input input").val() != ""){
-			alert("You bastard! You wanna search for '" + 
-			$("nav.ib ul #search-input input").val() + 
-			"', right?");
-		}
-		$("nav.ib > ul > li").css("display","inline");
-		$("nav.ib ul #search-input").css("display","none");
-		$("nav.ib ul #search-input input").val("");
-		searchActive = false;
-	}
-
-	function showSearch(){
-		$("nav.ib > ul > li").css("display","none");
-		$("nav.ib ul #search-input").css("display","inline");
-		$("nav.ib ul #search-input input").focus();
-		$("nav.ib ul #menu-search-button").css("display","inline");
-		searchActive = true;
-		$("nav.ib ul #search-input").animate({
-			width: "94%"
-		},100);
-	}
+	//HANDLING PAGE SCROLLING (APPLIES TO NAVIGATION PANEL)
 
 	$(window).scroll(function() {
 		if ($(this).scrollTop()	> sliderHeight + headerHeight)

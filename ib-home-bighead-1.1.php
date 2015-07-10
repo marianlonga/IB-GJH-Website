@@ -34,7 +34,7 @@
 		<img src="img/gjh_logo.png" height="70px">
 	  </div>
 	
-	  <span class="text"><b>Gymnázium Jura Hronca</b><br>Lorem Ipsum Diploma Programme</span>
+	  <span class="text"><b>Gymnázium Jura Hronca</b><br>International Baccalaureate Diploma Programme</span>
 	
 	  <span class="header-logo-right">
 	  	<img src="img/iblogo-big.png">
@@ -95,12 +95,18 @@
 	    </li>
 	    <li><a href="#">Kontakty</a></li>
 	    <li><a href="#">Fotogaléria</a></li>
-	    <li id="search-input"><input type="text"></input></li>
+	    <li id="search">
+	    	<input type="text" id="search-input" 
+	    		placeholder="Type here what you're looking for, then hit Enter">
+	    	</input>
+	    	<button id="menu-search-button">
+	    		<img src="img/search_icon.svg">
+	    	</button>
+	    </li>
 	    <li id="language-switch">
 	      <button class="language-switch-button" id="en"><img src="img/great_britain.png"></button>	
 		  <button class="language-switch-button" id="sk"><img src="img/slovakia.png"></button>
 	    </li>
-	    <li id="menu-search-button"><img src="img/search_icon.svg"></li>
 	  </ul>
 	</nav>
 </div>
@@ -153,6 +159,7 @@
 	</section>
 </div>
 	<footer class="ib">
+		<!--
 		<div class="left">
 			<img src="img/gjh_logo-inverse.png">
 			Copyright &copy; 2015, Gymnázium Jura Hronca<br><b>Designed by</b> Samuel Sučík
@@ -165,6 +172,34 @@
 		<div class="right">
 			<img src="img/gjh-pano.jpg" width="100%">
 		</div>		
+		-->
+		<div class="footer-col footer-col-2">
+			<img src="img/gjh_logo-inverse.png">
+		</div>
+		<div class="footer-col footer-col-4">
+			<b>Adresa:</b><br>IBD program<br>Gymnázium Jura Hronca<br>Novohradská 3<br>821 09 Bratislava	
+		</div>
+		<div class="footer-col footer-col-4">
+			<b>Koordinátor IBD:</b><br>RNDr. Matej Gonda<br>ibdcoordinator@gjh.sk<br>(02) 210 28 338
+		</div>
+		<div class="footer-col footer-col-6">
+			<table class="sitemap">
+				<tr>
+					<td>IB &amp; GJH</td>
+					<td>Aktivity</td>
+					<td>Štúdium</td>
+				</tr>
+				<tr>
+					<td>Prijímanie</td>
+					<td>Kontakty</td>
+					<td>Fotogaléria</td>
+				</tr>
+			</table>
+		</div>
+		<div class="footer-col footer-col-4">
+			Copyright &copy; 2015<br>Gymnázium Jura Hronca<br><b>Designed by</b> Samuel Sučík
+			<br><b>Developed by</b> Marián Longa<br><b>Powered by</b> WordPress
+		</div>
 	</footer>
 </div>
 </body>

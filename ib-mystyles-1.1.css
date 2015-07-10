@@ -3,6 +3,7 @@
 *********************************************/
 *{
 	box-sizing: border-box;
+	font-family: 'Helvetica';
 }
 html{
 	height: auto;
@@ -208,7 +209,7 @@ body{
 *********************************************/
 nav.ib{
 	font-family: "Helvetica";
-	background-color: rgb(30,15,5);
+	//background-color: rgb(30,15,5);
 	position: relative;
 	float: top;
 	margin: 0;
@@ -246,7 +247,7 @@ nav.ib ul li{
 	position: relative;
 	display: inline;
 	text-align: center;
-	background-color: rgb(0,0,0);
+	background-color: rgb(30,15,5);
 	line-height: inherit;
 	text-shadow: 0px 0px 3px black;
 	height: inherit;
@@ -254,20 +255,17 @@ nav.ib ul li{
 	margin: 0;
 	padding: 0;
 	border: 0;
-	//border-left: solid 1px rgb(20,20,20);
 	border-right: solid 1px rgb(20,20,20);
-	//border-top: solid 2px rgb(20,20,20);
 	float: left;
 	vertical-align: middle;
 }
-nav.ib ul li:not(#language-switch):not(#menu-search-button):not(#search-input):hover{
+nav.ib ul li:not(#language-switch):hover{
 	background-color: rgb(76,60,49);
 }
 nav.ib ul ul{
-	font-family: inherit;	
+	font-family: inherit;
 	display: none;
 	position: absolute;
-	background-color: rgb(20,10,0);
 	top: 100%;
 	left: 0;
 	margin: 0;
@@ -279,8 +277,8 @@ nav.ib ul ul{
 nav.ib ul ul li{
 	font-family: inherit;
 	display: block;
-	text-align: left;//center;
-	background-color: rgb(0,0,0);
+	text-align: left;
+	background-color: rgb(30,15,5);
 	line-height: 18px;
 	height: inherit;
 	width: auto;
@@ -296,12 +294,8 @@ nav.ib ul ul li{
 	float: none;
 	vertical-align: middle;
 }
-nav.ib ul ul li a{
-	//font-family: inherit;	
-	//display: block;
+nav.ib ul ul a{ 
 	font-size: 1.1em;
-	//width: 100%;
-	//height: 100%;
 }
 nav.ib ul ul li:hover{
 	background-color: rgb(180,120,30);
@@ -314,7 +308,7 @@ nav.ib ul li a:hover{
 }
 nav.ib ul #search-input{
 	position: relative;
-	float: right;
+	float: left;
 	border: 0;
 	margin: 0;
 	padding: 0;
@@ -322,25 +316,33 @@ nav.ib ul #search-input{
 	height: 100%;
 	line-height: 100%;
 	display: none;
-}
-nav.ib ul #search-input input{
-	width: 100%;
-	height: 100%;
 	padding-left: 2%;
 	padding-right: 2%;
 	font-size: 1.1em;
 }
-nav.ib ul #menu-search-button{
+nav.ib ul #search{
 	width: 100%;//5%;
 	float: right;
 	padding: 0;
 	border: 0;
 	margin: 0;
 }
+nav.ib ul #menu-search-button{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	text-align: center;
+	background-color: rgb(30,15,5);
+	outline: none; //works for Chrome, add code to affect other browsers
+}
 nav.ib ul #menu-search-button img{
-	height: 90%;
-	position: relative;
-	left: ;
+	height: 100%;
+	margin: auto;
+}
+nav.ib ul #menu-search-button:hover{
+	background-color: rgb(79,60, 49);
 }
 nav.ib ul #language-switch{
 	float: right;
@@ -387,63 +389,67 @@ footer.ib{
 	z-index: 1000;
 	position: relative;
 	width: 100%;
-	height: 230px;
+	height: 140px;
 	right: 0;
 	left: 0;
 	float: bottom;
 	box-shadow: 0 0 10px 5px rgba(20,10,0,0.90);
 }
-footer.ib .left{
-	text-align: center;
-	font-size: 0.75em;
+.footer-col{
+	height: 100%;
 	display: inline-block;
 	position: relative;
 	float: left;
+	padding: 2%;
+	border: 0;
+}
+.footer-col:not(:last-of-type){
+	border-right: 1px solid white;
+	border-image: linear-gradient(to bottom, rgba(0,0,0,0) 5%, 
+		rgba(240,240,240,0.6) 25%, rgba(240,240,240,0.6) 75%, rgba(0,0,0,0) 95%);
+	border-image-slice: 1;
+}
+.footer-col-1{
+	width: 5%;
+}
+.footer-col-2{
+	width: 10%;
+}
+.footer-col-3{
+	width: 15%;
+}
+.footer-col-4{
 	width: 20%;
-	height: 100%;
-	padding: 2%;
-	border: 0;
-	border-right: 1px solid white;
-	border-image: linear-gradient(to bottom, rgba(0,0,0,0) 5%, 
-		rgba(240,240,240,0.6) 25%, rgba(240,240,240,0.6) 75%, rgba(0,0,0,0) 95%);
-	border-image-slice: 1;
 }
-footer.ib .right{
-	display: inline-block;
-	position: relative;
-	float: right;
-	width: 63%;
-	height: 100%;
-	padding: 2%;
+.footer-col-5{
+	width: 25%;
 }
-footer.ib .middle{
-	display: inline-block;
-	position: relative;
-	float: left;
-	width: 17%;
-	height: 100%;
-	padding: 2%;
-	border: 0;
-	border-right: 1px solid white;
-	border-image: linear-gradient(to bottom, rgba(0,0,0,0) 5%, 
-		rgba(240,240,240,0.6) 25%, rgba(240,240,240,0.6) 75%, rgba(0,0,0,0) 95%);
-	border-image-slice: 1;
+.footer-col-6{
+	width: 30%;
 }
-footer.ib img{
-	display: block;
-	float: top;
-	position: relative;
+.footer-col-7{
+	width: 35%;
 }
-footer.ib .left img{
-	width: 60%;
-	margin-left: 20%;
-	margin-right: 20%;
-	margin-top: -7%;
+footer.ib .footer-col img{
+	max-width: 90%;
+	max-height: 90%;
 	position: relative;
 	float: top;
 }
-footer.ib .right img{
-	box-shadow: 0 0 30px 5px black;
+.sitemap{
+	font-variant: small-caps;
+	width: 100%;
+	border-collapse: collapse;
+}
+.sitemap td{
+	border: 0;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 2.5%;
+	padding-top: 2.5%;
+}
+.sitemap td:not(:last-of-type){
+	border-right: 1px solid white;	
 }
 /*********************************************
 	SECTIONS
@@ -506,7 +512,7 @@ h2{
 	nav.ib ul li{
 		width: 14.5%;
 	}
-	nav.ib ul #menu-search-button{
+	nav.ib ul #search{
 		width: 5%;
 	}
 	nav.ib ul #language-switch{
