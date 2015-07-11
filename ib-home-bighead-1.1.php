@@ -15,7 +15,6 @@
 		    document.body.appendChild(element);
 		}
 	</script>
-
 	<!-- jQuery POWERED BY THIS -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<!-- BW SLIDER POWERED BY THESE LINKS! -->
@@ -31,7 +30,7 @@
 	<div class="header-ib">
 	
 	  <div class="header-logo-left">
-		<img src="img/gjh_logo.png" height="70px">
+		<img src="img/gjhlogo.png" height="70px">
 	  </div>
 	
 	  <span class="text"><b>Gymnázium Jura Hronca</b><br>International Baccalaureate Diploma Programme</span>
@@ -149,56 +148,50 @@
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
-	Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
 	Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
 	</section>
 </div>
 	<footer class="ib">
-		<!--
-		<div class="left">
-			<img src="img/gjh_logo-inverse.png">
-			Copyright &copy; 2015, Gymnázium Jura Hronca<br><b>Designed by</b> Samuel Sučík
-			<br><b>Implemented by</b> Marián Longa
+		<div class="footer-col">
+			<a href="http://www.gjh.sk/">
+				<img src="img/gjhlogo-inverse-footer.png">
+			</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="http://www.ibo.org/">
+				<img src="img/iblogo-inverse-footer.png">
+			</a>
 		</div>
-		<div class="middle">
-			<b>Adresa:</b><br>IBD program<br>Gymnázium Jura Hronca<br>Novohradská 3<br>821 09 Bratislava
-			<br><br><b>Koordinátor IBD:</b><br>RNDr. Matej Gonda<br>ibdcoordinator@gjh.sk<br>(02) 210 28 338
+		<div class="footer-col">
+			<b>Adresa</b><i><br><br>IBD program<br>Gymnázium Jura Hronca<br>
+			Novohradská 3<br>821 09 Bratislava</i>
 		</div>
-		<div class="right">
-			<img src="img/gjh-pano.jpg" width="100%">
-		</div>		
-		-->
-		<div class="footer-col footer-col-2">
-			<img src="img/gjh_logo-inverse.png">
+		<div class="footer-col">
+			<b>Koordinátor IBD</b><i><br><br>RNDr. Matej Gonda<br>
+			ibdcoordinator@gjh.sk<br>(02) 210 28 338</i>
 		</div>
-		<div class="footer-col footer-col-4">
-			<b>Adresa:</b><br>IBD program<br>Gymnázium Jura Hronca<br>Novohradská 3<br>821 09 Bratislava	
+		<div class="footer-col sitemap">
+			<ul>
+		      	<li><b><a href="#">IB &amp; GJH</a></b></li>
+				<li><b><a href="#">AKTIVITY</a></b></li>
+				<li><b><a href="#">ŠTÚDIUM</a></b></li>
+				<li><b><a href="#">PRIJÍMANIE</a></b></li>
+				<li><b><a href="#">KONTAKTY</a></b></li>
+				<li><b><a href="#">FOTOGALÉRIA</a></b></li>
+				<li><b><a href="http://www.gjh.sk">GJH</a></b></li>
+				<li><b><a href="http://www.gjh.sk/pyp/">PYP</a></b></li>
+				<li><b><a href="http://www.gjh.sk/myp/">MYP</a></b></li>
+			</ul>
 		</div>
-		<div class="footer-col footer-col-4">
-			<b>Koordinátor IBD:</b><br>RNDr. Matej Gonda<br>ibdcoordinator@gjh.sk<br>(02) 210 28 338
+		<div class="footer-col footer-buttons">
+			<ul>
+				<li><button><img src="img/great_britain.png">&nbsp;&nbsp;English version</button></li>
+				<li><button><img src="img/slovakia.png">&nbsp;&nbsp;Slovenská verzia</button></li>
+				<li><button id="footer-search"><input type="text"></input><img src="img/search_icon.svg"></button></li>
+			</ul>
 		</div>
-		<div class="footer-col footer-col-6">
-			<table class="sitemap">
-				<tr>
-					<td>IB &amp; GJH</td>
-					<td>Aktivity</td>
-					<td>Štúdium</td>
-				</tr>
-				<tr>
-					<td>Prijímanie</td>
-					<td>Kontakty</td>
-					<td>Fotogaléria</td>
-				</tr>
-			</table>
-		</div>
-		<div class="footer-col footer-col-4">
-			Copyright &copy; 2015<br>Gymnázium Jura Hronca<br><b>Designed by</b> Samuel Sučík
-			<br><b>Developed by</b> Marián Longa<br><b>Powered by</b> WordPress
+		<div class="footer-bottom">
+			Copyright &copy; 2015 Gymnázium Jura Hronca. 
+			Designed by <i>Samuel Sučík</i>.
+			Developed by <a href="http://marianlonga.com/"><i>Marián Longa</i></a>.
 		</div>
 	</footer>
 </div>
